@@ -1,0 +1,1 @@
+gcc -Wall -std=c99 -I./include -DJSMN_STRICT -DJSMN_FIRST_CHILD_NEXT_SIBLING src/*.c example/*.c -o demo
